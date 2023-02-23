@@ -4,5 +4,6 @@ phases:
   build:
     commands:
       - echo Successfully connected to github
+      - echo "One more testing"
     finally:
       - echo This always runs even if the install command fails
